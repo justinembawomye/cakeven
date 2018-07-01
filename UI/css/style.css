@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+a{
+    color: aliceblue;
+}
+body{
+    background-color: rgb(192, 76, 130);
+    /* background-image: url('../images/alice.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+     color: #eee; 
+    background-position: 0% 9%;
+    overflow-x: hidden;
+}
+
+.jumbotron{
+    background-color: rgb(53, 19, 19);
+    color: #ddd;
+}
+
+ul li a{
+    display: inline;
+}
+
+.nav-link .navbar{
+    color: #ddd !important;
+}
+.navbar-brand{
+    font-size: 3vw !important;
+}
+.nav-link{
+    font-size: 1.3vw;
+}
+
+.content{
+    margin-top:0vw;
+    margin-bottom:0vw;
+    background-image: url('../images/alice.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 5vw !important;
+}
+p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.parallax{
+    height: 30vw;
+    background-image: url('../images/photo-1464349095431-e9a21285b5f3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+input[type="text"]{
+    width: 25vw;
+}
+textarea{
+    width: 52vw;  
+}
+
+.parallax2{
+    height: 30vw;
+    background-image: url('../images/cake-1839134__340.jpg');
+    background-position:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.parallax2 h1{
+    color: #222;
+    padding-bottom: 5vh;
+}
+
+.parallax2 p{
+    color: #222;
+    font-size: 1.3vw;
+}
+
+.btn1, .btn2{
+    float: left;
+    color: #111 !important;
+    background-color: transparent !important;
+}
+
+.cols3{
+    position: relative;
+}
+
+.count{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 12vh;
+
+}
+.footer{
+    background-color: #222;
+    /* background-image: url("../images/fruit_cake.jpg"); */
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+}
+
+.rights{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+
+}
